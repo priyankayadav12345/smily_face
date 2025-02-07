@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>smily face</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="face">
+        <div class="eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
+    </div>
+    </div>
+
+    <script>
+        document.querySelector("body").addEventListener("mousemove",eyeball);
+        function eyeball()
+        {
+            var eye= document.querySelectorAll(".eye");
+            eye.forEach(function(eye)
+            let x = eye.getBoundingClientRect().left+eye.clientwidth/2;
+            let radian=math.atan2(evet.page -x,enent.page -y);
+            let rot=radian*(180/math.PI)* -1+270;
+            eye.style.transform="ratate("+rot+"deg)";)
+
+         
+    
+        }
+        
+    
+    </script>
+    
+    
+  
+</body>
+</html>
